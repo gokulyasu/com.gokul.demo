@@ -83,7 +83,7 @@
 
 		<headerContent>
 			<m:FlexBox wrap="Wrap">
-				<m:Avatar class="sapUiSmallMarginEnd animate__animated animate__jackInTheBox" src="./utilitis/images/Avatar3.jpg"  displaySize="L" />
+				<m:Avatar class="sapUiSmallMarginEnd animate__animated animate__rollIn" src="./utilitis/images/Avatar3.jpg"  displaySize="L" />
 
 					<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
 						<m:Link text="+91 9629273009"/>
