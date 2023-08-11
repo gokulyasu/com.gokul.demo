@@ -100,9 +100,21 @@
 						<m:layoutData>
 							<m:OverflowToolbarLayoutData priority="NeverOverflow"/>
 						</m:layoutData>
-					</m:OverflowToolbarButton>
-					<m:OverflowToolbarButton icon="sap-icon://pull-down" text="show section" type="Emphasized" tooltip="pull-down"/>
-					<m:OverflowToolbarButton icon="sap-icon://show" text="show state" tooltip="show"/>
+					</m:OverflowToolbarButton> -->
+                    <!-- <m:OverflowToolbarButton
+                        icon="sap-icon://pull-down"
+                        text="show section"
+                        type="Emphasized"
+                        press="changeTheme"
+                        tooltip="pull-down"
+                    /> -->
+                    <m:Switch
+                        state="false"
+                        customTextOff="Day"
+                        customTextOn="Night"
+						change="changeTheme"
+                    />
+                    <!-- <m:OverflowToolbarButton icon="sap-icon://show" text="show state" tooltip="show"/>
 					<m:Button text="Toggle Footer" press="toggleFooter"/> -->
                 </actions>
             </ObjectPageDynamicHeaderTitle>
@@ -118,7 +130,10 @@
 
                 <layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
                     <m:HBox>
-                        <core:Icon src="sap-icon://call" class="sapUiTinyMarginBeginEnd animate__animated animate__jello"/>
+                        <core:Icon
+                            src="sap-icon://call"
+                            class="sapUiTinyMarginBeginEnd animate__animated animate__jello"
+                        />
                         <m:Link
                             href='tel:+919629273009'
                             text="Call"
@@ -126,8 +141,11 @@
                     </m:HBox>
 
                     <!-- <html:a href='tel:+919629273009'>Call</html:a> -->
-                    <m:HBox >
-                        <core:Icon src="sap-icon://email" class="sapUiTinyMarginBeginEnd animate__animated animate__jello"/>
+                    <m:HBox>
+                        <core:Icon
+                            src="sap-icon://email"
+                            class="sapUiTinyMarginBeginEnd animate__animated animate__jello"
+                        />
                         <m:Link
                             href="mailto:iamgokul381@gmail.com"
                             text="Mail"
