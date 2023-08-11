@@ -7,7 +7,7 @@ sap.ui.define(
 
     return BaseController.extend("com.gokul.demo.controller.Main", {
       sayHello: function () {
-        MessageBox.show("Hello Gokul!");
+        MessageBox.show("Hello GokulJanani!");
       },
     });
   }
