@@ -51,7 +51,7 @@
 
 				<snappedHeading>
 					<m:FlexBox  fitContainer="true" alignItems="Center">
-						<m:Avatar src="./utilitis/images/Avatar.jpg" class="sapUiTinyMarginEnd"/>
+						<m:Avatar src="./utilitis/images/Avatar2.png" class="sapUiTinyMarginEnd"/>
 						<m:Title text="Gokul Prakash" wrapping="true"/>
 					</m:FlexBox>
 				</snappedHeading>
@@ -83,7 +83,7 @@
 
 		<headerContent>
 			<m:FlexBox wrap="Wrap">
-				<m:Avatar class="sapUiSmallMarginEnd" src="./test-resources/sap/uxap/images/imageID_275314.png"  displaySize="L" />
+				<m:Avatar class="sapUiSmallMarginEnd" src="./utilitis/images/Avatar3.jpg"  displaySize="L" />
 
 					<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
 						<m:Link text="+91 9629273009"/>
